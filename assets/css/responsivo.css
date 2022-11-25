@@ -1,0 +1,144 @@
+@media screen and (max-width: 800px) {
+  * {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .sidebar ul li {
+    display: none;
+  }
+
+  body {
+    display: block;
+  }
+
+  table {
+    display: none;
+  }
+
+  main {
+    display: block;
+    width: auto;
+  }
+
+  nav.content {
+    display: block;
+  }
+  .container-ada-lovelace {
+    float: none;
+    width: auto;
+    margin-left: 0;
+  }
+
+  #logo-wiki {
+    width: 80px;
+  }
+
+  .menu img {
+    width: 18px;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+  }
+
+  .menu {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: -18px;
+  }
+
+  .wiki {
+    display: flex;
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-search {
+    width: 75%;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+  }
+
+  .input-search svg {
+    position: relative;
+  }
+
+  .input-search input {
+    width: 70%;
+    height: 55%;
+    padding: 10px;
+    margin-left: 58px;
+    justify-items: space-between;
+    border: 1px solid #c7c7c7;
+    outline: none;
+  }
+
+  .input-search button {
+    width: auto;
+    height: 55%;
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+  }
+
+  .input-search button:hover {
+    background: #c7c7c7;
+    cursor: pointer;
+  }
+
+  .check {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -6px;
+  }
+
+  .check a {
+    float: top;
+    position: relative;
+    text-decoration: none;
+    color: rgb(37, 112, 196);
+  }
+
+  .check a:hover {
+    border-bottom: 1px solid rgb(37, 112, 196);
+  }
+
+  #btn-ponto {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    float: top;
+  }
+
+  #texto-wiki {
+    position: relative;
+    display: flex;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  .input-search {
+    display: NONE;
+  }
+
+  .infor img,
+  #cpu {
+    width: 15px;
+  }
+
+  #rod {
+    width: auto;
+    display: block;
+  }
+
+  p {
+    font-size: auto;
+  }
+}
