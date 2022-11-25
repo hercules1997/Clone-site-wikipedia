@@ -23,9 +23,8 @@
 
   nav.content {
     display: block;
-    margin-right: 2px;
-    margin-left: 2px;
   }
+  
   .container-ada-lovelace {
     float: none;
     width: auto;
